@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main_calculator"
+            android:icon="@drawable/ic_menu_basic_calculator"
+            android:title="@string/menu_basic_calculator" />
+        <item
+            android:id="@+id/nav_scientific_calculator"
+            android:icon="@drawable/ic_menu_scientific_calculator"
+            android:title="@string/menu_scientific_calculator" />
+        <item
+            android:id="@+id/nav_simple_rule_of_three_calculator"
+            android:icon="@drawable/ic_menu_simple_rule_of_three_calculator"
+            android:title="@string/menu_simple_rule_of_three_calculator" />
+    </group>
+</menu>

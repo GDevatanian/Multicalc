@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/fragment_scientific_calculator.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Input TextView -->
+    <TextView
+        android:id="@+id/input_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="end"
+        android:textSize="24sp"
+        android:padding="16dp"/>
+
+    <!-- Output TextView -->
+    <TextView
+        android:id="@+id/output_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="end"
+        android:textSize="32sp"
+        android:padding="16dp"/>
+
+    <!-- Buttons LinearLayout -->
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Row of Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Example Button -->
+            <Button
+                android:id="@+id/button_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="1"/>
+
+            <!-- Add more buttons as needed -->
+
+        </LinearLayout>
+
+        <!-- Add more rows of buttons as needed -->
+
+    </LinearLayout>
+
+</LinearLayout>

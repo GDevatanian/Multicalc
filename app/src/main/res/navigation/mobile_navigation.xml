@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_main_calculator">
+
+    <fragment
+        android:id="@+id/nav_main_calculator"
+        android:name="com.example.multicalc.ui.basic_calculator.BasicCalculatorFragment"
+        android:label="@string/menu_basic_calculator"
+        tools:layout="@layout/fragment_basic_calculator" />
+
+    <fragment
+        android:id="@+id/nav_scientific_calculator"
+        android:name="com.example.multicalc.ui.scientific_calculator.ScientificCalculatorFragment"
+        android:label="@string/menu_scientific_calculator"
+        tools:layout="@layout/fragment_scientific_calculator" />
+
+    <fragment
+        android:id="@+id/nav_simple_rule_of_three_calculator"
+        android:name="com.example.multicalc.ui.simple_rule_of_three_calculator.SimpleRuleOfThreeCalculatorFragment"
+        android:label="@string/menu_simple_rule_of_three_calculator"
+        tools:layout="@layout/fragment_simple_rule_of_three_calculator" />
+</navigation>

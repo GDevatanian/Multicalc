@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Multicalc</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_basic_calculator">Calculadora</string>
+    <string name="menu_scientific_calculator">Calculadora Cientifica</string>
+    <string name="menu_simple_rule_of_three_calculator">Regla de 3 simple</string>
+</resources>
