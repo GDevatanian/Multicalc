@@ -9,7 +9,7 @@ class SimpleRuleOfThreeCalculatorViewModel : ViewModel() {
 
     fun calculateRuleOfThree(number1: Double, number2: Double, number3: Double) {
         return if (number2 != 0.0) {
-            val result = (number1 / number2) * number3
+            val result = (number2 * number3) / number1
             output = Utils.convertirEnteroSiEsPosible(result).toString()
         } else {
             // Manejar el caso cuando el número2 es 0 para evitar la división por 0
