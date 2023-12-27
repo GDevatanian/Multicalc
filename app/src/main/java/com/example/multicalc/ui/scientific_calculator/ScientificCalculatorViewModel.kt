@@ -1,7 +1,5 @@
 package com.example.multicalc.ui.scientific_calculator
 
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class ScientificCalculatorViewModel : ViewModel() {

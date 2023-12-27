@@ -9,7 +9,6 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.multicalc.R
-import com.example.multicalc.databinding.FragmentScientificCalculatorBinding
 
 class ScientificCalculatorFragment : Fragment() {
 
